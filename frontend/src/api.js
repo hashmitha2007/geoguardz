@@ -1,4 +1,4 @@
-const BASE = "/api";
+const BASE = "https://geoguardz-0osg.onrender.com/api";
 
 export async function submitReport({ image, crop, lat, lng, farmerName, symptoms }) {
   const form = new FormData();
